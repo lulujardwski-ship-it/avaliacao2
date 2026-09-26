@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | Autenticação</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main class="container">
+    <header><span class="eyebrow">Avaliação 2 · Cloudflare Pages</span><h1>Dashboard de autenticação</h1><p>Entre com uma conta para consultar sua sessão local.</p></header>
+    <section class="card" aria-live="polite">
+      <h2>Sua sessão</h2><p id="status">Consultando a sessão...</p>
+      <div class="actions" id="login-actions"><a class="button" href="/oauth/login/google">Entrar com Google</a><a class="button secondary" href="/oauth/login/github">Entrar com GitHub</a></div>
+      <form method="post" action="/oauth/logout" id="logout-form" hidden><button class="button secondary" type="submit">Sair</button></form>
+    </section>
+    <p class="note">Esta página é pública. A identidade é consultada pela rota protegida <code>/api/me</code>.</p>
+  </main>
+</body>
+</html>
