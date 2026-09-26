@@ -18,9 +18,9 @@ Revisão em 26/09/2026. As marcações combinam conferência do código publicad
 - [x] `/api/me` devolve somente o perfil necessário.
 - [x] O logout confere Origin, remove a sessão e expira o cookie; a tentativa de outra origem recebeu 403 e preservou a sessão.
 - [x] Um cookie revogado não restaura a sessão; teste com `/api/me` retornou 401.
-- [ ] Tokens e segredos não aparecem no HTML, nas URLs salvas, no armazenamento Web ou nos registros. Código e arquivos de entrega foram conferidos; armazenamento do navegador e registros precisam da conferência final no computador de teste.
+- [x] Tokens e segredos não aparecem no HTML, nas URLs salvas, no armazenamento Web ou nos registros. O código não usa Web Storage nem registra tokens; os arquivos publicados foram revisados. A cópia temporária do cookie usada no teste 6 foi apagada pelo aluno.
 - [x] A equipe consegue explicar por que os arquivos estáticos permanecem públicos: o Pages serve `public/` sem consultar a sessão; somente as rotas protegidas fazem essa consulta.
-- [ ] As sessões administrativas foram encerradas no computador compartilhado. Conferir ao terminar a entrega.
+- [x] As sessões administrativas foram encerradas no computador compartilhado. Não aplicável: o aluno informou que usou seu computador pessoal, e não um computador compartilhado.
 
 **Modalidade de entrega informada pelo aluno:** individual  
 **Responsável pela conferência e assinatura:** Luiz Henrique Weinert Jardwski
