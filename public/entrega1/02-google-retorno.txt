@@ -1,0 +1,5 @@
+Google OAuth (cliente Web) — ambiente de produção
+URL de retorno cadastrada:
+https://avaliacao2-01z.pages.dev/oauth/callback/google
+
+O fluxo de login com a conta de teste foi concluído no endereço de produção em 26/09/2026. Nenhum código ou parâmetro transitório está incluído nesta evidência.

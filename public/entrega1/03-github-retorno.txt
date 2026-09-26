@@ -1,0 +1,8 @@
+GitHub OAuth App — ambiente de produção
+Página inicial cadastrada:
+https://avaliacao2-01z.pages.dev/
+
+URL de retorno cadastrada:
+https://avaliacao2-01z.pages.dev/oauth/callback/github
+
+O fluxo de login foi concluído no endereço de produção em 26/09/2026. Nenhum código ou parâmetro transitório está incluído nesta evidência.
